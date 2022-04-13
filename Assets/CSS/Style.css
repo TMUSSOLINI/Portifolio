@@ -1,0 +1,116 @@
+:root{
+    /* Cores utilizadas: */
+    --cordefundo: #DCDCDC;
+    --preto: #000000;
+    --corlink:#FFFAFA;
+    --corborda: #FFFAFA;
+
+    /* Fontes utilizadas: */
+    --fontfamilytexto: 'Montserrat', sans-serif;
+    --fontfamilytitle:'Oswald', serif;
+}
+
+
+body{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color:var(--cordefundo) ;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navegacao__list--link{
+    color: var(--preto);
+    text-decoration: none;
+    text-align: center;
+    font-size: 25px;
+    font-family: var(--fontfamilytitle);
+}
+.navegacao__list--link:hover{
+    color: var(--corlink);
+    text-decoration: underline;
+}
+
+.cabecalho__container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+    text-align: start;
+}
+
+.cabecalho__foto{
+    width: 190px;
+    height: 180px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    border: var(--corborda) 5px solid;
+}
+
+.sobremim__container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 2rem;
+}
+
+.sobremim__nome{
+    font-family: var(--fontfamilytitle);
+    font-size: 50px;
+}
+
+.sobremim__profissao{
+    font-family: var(--fontfamilytexto);
+    font-size: 30px;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.sobremim__historia--titulo{
+    margin-bottom: 1rem;
+    font-family: var(--fontfamilytitle);
+    font-size: 30px;
+}
+.sobremim__historia span{
+    font-size: 20px;
+    font-weight: 100;
+    font-family: var(--fontfamilytitle);
+}
+.sobremim__historia--descricao{
+    font-family: var(--fontfamilytexto);
+    font-size: 17px;
+}
+.educacao__container{
+    display: flex;
+    flex-direction: column;
+}
+.educacao__titulo{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-family: var(--fontfamilytitle);
+    font-size: 30px;
+    text-align: start;
+}
+.educacao__descricao{
+    font-family: var(--fontfamilytexto);
+    font-size: 15px;
+    font-weight: bold;
+}
+.educacao__curso{
+    border: 1px solid var(--preto);
+    width: 100vh;
+    display: flex;
+    justify-content: center;
+    color: var(--preto);
+}
+.educacao__local{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
