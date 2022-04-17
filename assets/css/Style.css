@@ -176,10 +176,14 @@ body{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        align-items: center;
     }
     .projetos__container{
         display: flex;
         flex-direction: column;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
     }
     .projetos__caixa{
         margin-top: 10px;
@@ -190,6 +194,7 @@ body{
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
+        align-items: center;
     }
     .projetos__caixa{
         margin-top: 10px;
