@@ -112,7 +112,7 @@ body{
 }
 .educacao__curso{
     border: 1px solid var(--preto);
-    width: 100vh;
+    width: 100%;
     display: flex;
     justify-content: center;
     color: var(--preto);
@@ -171,12 +171,27 @@ body{
     width: 100px;
 }
 
-@media screen and(min-width: 360px) {
+@media screen and (max-width:500px) {
+    .educacao__container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
     .projetos__container{
         display: flex;
         flex-direction: column;
     }
     .projetos__caixa{
-        margin-bottom: 15px;
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width:1400px) {
+    .projetos__container{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .projetos__caixa{
+        margin-top: 10px;
     }
 }
