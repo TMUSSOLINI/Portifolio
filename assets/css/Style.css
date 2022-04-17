@@ -14,8 +14,8 @@
 
 
 body{
-    padding-left: 4rem;
-    padding-right: 4rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
     background-color:var(--cordefundo) ;
 }
 
@@ -189,7 +189,7 @@ body{
         flex-wrap: wrap;
         align-items: center;
         width: 100%;
-        padding: 2rem;
+        padding: .50rem;
         box-sizing: border-box;
     }
     .projetos__caixa{
