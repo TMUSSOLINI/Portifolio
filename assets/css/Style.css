@@ -186,7 +186,7 @@ body{
         align-items: center;
     }
     .projetos__caixa{
-        margin-top: 10px;
+        margin: 10px 0 0 auto;
     }
 }
 @media screen and (max-width:1400px) {
@@ -194,9 +194,9 @@ body{
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
-        align-items: center;
+        align-items: center;    
     }
     .projetos__caixa{
-        margin-top: 10px;
+        margin: 10px 0 0 auto;
     }
 }
